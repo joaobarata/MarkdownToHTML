@@ -13,7 +13,7 @@ namespace MarkdownToHTML
     /// Uses the Newtonsoft.Json library (https://www.newtonsoft.com/json)
     /// </summary>
     [OSInterface(Description = "Version 0.1.0\r\n\r\nWrapper code for the Markdig .Net Library. Markdig is a fast, powerful, CommonMark compliant, extensible Markdown processor for .NET. (https://github.com/xoofx/markdig)", IconResourceName = "MarkdownToHtml.resources.markdig.png", Name = "MarkdownToHTML")]
-    internal interface IMarkdownToHTML
+    public interface IMarkdownToHTML
     {
         /// <summary>
         /// Converts Markdown content into HTML
